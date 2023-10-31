@@ -1,0 +1,17 @@
+<div>
+    <h1>Productos</h1>
+    <form id="products-form">
+        <input type="text" id="title" placeholder="Titulo" required>
+        <input type="text" id="description" placeholder="Descripción" required>
+        <input type="text" id="code" placeholder="Código" required>
+        <input type="text" id="price" placeholder="Precio" required>
+        <input type="text" id="status" placeholder="Status" required>
+        <input type="text" id="stock" placeholder="Stock" required>
+        <input type="text" id="category" placeholder="Categoria" required>
+        <input type="submit" value="Enviar">
+    </form>
+    <ul id="products-list">
+    </ul>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/products.js"></script>
